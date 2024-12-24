@@ -124,7 +124,7 @@ def bundesliga():
         'Darmstadt', 'Ingolstadt', 'RB Leipzig', 'Union Berlin', 'Heidenheim',
     ]
 
-    highlighted_team_names = ', '.join([f"<span style='color: blue;'>{name}</span>" for name in team_names])
+    highlighted_team_names = ', '.join([f"<span style='color: black;'>{name}</span>" for name in team_names])
     st.write("Please follow the naming convention for the team names. The conventions are: ")
     st.markdown(f"{highlighted_team_names}", unsafe_allow_html=True)
 

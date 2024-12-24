@@ -1,22 +1,45 @@
 import streamlit as st
 from PIL import Image
 
-
 def home_page():
-
-    st.image("logo1.png",width=150)
-
-    st.title("Football Match Outcome Predictor ⚽")
-
-    st.write("This web app predicts the outcome of football matches in the top European leagues like: Bundesliga, EPL, La Liga, Serie A")
-
-    st.info("While navigating through different leagues kindly please refresh the site for better performance")
-
-    st.write("Select the league from the sidebar to get started")
-
+    # Custom CSS for background image
+    st.markdown(
+        """
+        <style>
+        .stApp {
+            background-image: url('https://wallpapers-clan.com/wp-content/uploads/2024/01/dynamic-red-cristiano-ronaldo-desktop-wallpaper-preview.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .st-emotion-cache-1wmy9hl.e1f1d6gn1 {
+        background-color: rgba(173,173,173, 0.6); 
+        border-radius: 8px;  
+        display: flex;
+        text-align: center;
+        }
+        li,h1{
+        color: black;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+    
     container = st.container()
 
     with container:
+        st.image("logo1.png", width=150)
+
+        st.title("⚽Football⚽")
+
+        st.write("* This web app predicts the outcome of football matches in the top European leagues like: Bundesliga, EPL, La Liga, Serie A")
+
+
+
+        st.write("* Select the league from the sidebar to get started")
+
+    
         st.write("* Bundesliga: German Football League")
         st.text("")
         st.write("* EPL: English Premier League")
@@ -25,10 +48,11 @@ def home_page():
         st.text("")
         st.write("* Serie A: Italian Football League")
         st.text("")
-
-    st.info("The model has been trained on 25 years of historical results (1999-2024). It makes predictions based on past encounters between the teams and their current form. Please note that these predictions are not guaranteed to be accurate and should be used as a guide rather than a definitive forecast. Factors not accounted for by the model can influence match outcomes.The predictions should not be used for betting or gambling purposes.")
-
-    st.success("Thanks for visiting 🤩!!")
+        st.write("* Football News")
+        st.text("")
+        st.write("* Player Valuation")
+        st.text("")
 
 if __name__ == "__main__":
     home_page()
+
