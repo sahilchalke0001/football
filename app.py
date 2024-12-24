@@ -33,6 +33,7 @@ def main():
         }
         li , h1, span , h3{
         color: black;
+        background-color:rgba(173,173,173);
         }
         p{
         color: black;
