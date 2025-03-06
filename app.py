@@ -19,27 +19,7 @@ def main():
     st.markdown(
         """
         <style>
-        .stApp {
-            background-image: url('https://wallpapers-clan.com/wp-content/uploads/2024/01/dynamic-red-cristiano-ronaldo-desktop-wallpaper-preview.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-        .st-emotion-cache-1wmy9hl.e1f1d6gn1 {
-        background-color: rgba(173,173,173, 0.6); 
-        border-radius: 8px;  
-        display: flex;
-        text-align: center;
-        }
-        li , h1, span , h3{
-        color: black;
-        background-color:rgba(173,173,173);
-        }
-        p{
-        color: black;
-        font-size:20px;
-        background-color:rgba(173,173,173);
-        }
+        
         </style>
         """,
         unsafe_allow_html=True
