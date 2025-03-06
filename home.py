@@ -6,12 +6,7 @@ def home_page():
     st.markdown(
         """
         <style>
-        .stApp {
-            background-image: url('https://wallpapers-clan.com/wp-content/uploads/2024/01/dynamic-red-cristiano-ronaldo-desktop-wallpaper-preview.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
+        
         
         </style>
         """,
