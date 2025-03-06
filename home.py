@@ -12,15 +12,7 @@ def home_page():
             background-position: center;
             background-repeat: no-repeat;
         }
-        .st-emotion-cache-1wmy9hl.e1f1d6gn1 {
-        background-color: rgba(173,173,173, 0.6); 
-        border-radius: 8px;  
-        display: flex;
-        text-align: center;
-        }
-        li,h1{
-        color: black;
-        }
+        
         </style>
         """,
         unsafe_allow_html=True
